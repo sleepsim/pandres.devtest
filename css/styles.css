@@ -11544,7 +11544,7 @@ html {
   position: absolute;
   top: 0;
   left: -5%;
-  transition: all 0.3s;
+  transition: all 0.6s;
 }
 
 .hover-1-content {
@@ -11553,17 +11553,24 @@ html {
   bottom: 0;
   left: -5%;
   z-index: 99;
-  transition: all 0.4s;
+  transition: all 0.6s;
 }
 
 .hover-1 .hover-overlay {
-  background: rgba(0, 0, 0, 0);
+  width: 95%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 0.6s;
 }
 
 .hover-1-description {
   transform: translateY(0.5rem);
   transition: all 0.4s;
   opacity: 0;
+}
+
+.hover-1:hover .hover-overlay{
+  width: 100%;
 }
 
 .hover-1:hover .hover-1-content {
