@@ -11439,7 +11439,12 @@ html {
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
-  font-size: 1.25rem;
+  font-size: 1rem;
+}
+.masthead .masthead-name{
+  font-size: 2.75rem;
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
 }
 .masthead .masthead-avatar {
   width: 15rem;
@@ -11514,6 +11519,8 @@ html {
   overflow: hidden;
   position: relative;
   padding-bottom: 60%;
+  cursor: pointer;
+  border-radius: 0.25rem;
 }
 
 .hover-overlay {
@@ -11524,6 +11531,7 @@ html {
   left: 0;
   z-index: 90;
   transition: all 0.4s;
+  border-radius: 1rem;
 }
 
 .hover img {
@@ -11532,6 +11540,7 @@ html {
   top: 0;
   left: 0;
   transition: all 0.3s;
+  border-radius: 0.25rem;
 }
 
 .hover-content {
@@ -11559,7 +11568,7 @@ html {
 .hover-1 .hover-overlay {
   width: 95%;
   position: absolute;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   transition: all 0.6s;
 }
 
